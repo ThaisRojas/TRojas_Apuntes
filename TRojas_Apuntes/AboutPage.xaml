@@ -16,12 +16,10 @@
                    FontAttributes="Bold"
                    HorizontalOptions="Center" />
 
-            <Label Text="Estudio Ingeniería en Software en la Universidad de Las Américas. Estoy en 5to semestre."
+            <Label Text="Estudio Ingeniería en Software en la Universidad De Las Américas. Estoy en 5to semestre."
                    FontSize="18"
                    HorizontalTextAlignment="Center" />
 
         </VerticalStackLayout>
     </ScrollView>
-</ContentPage>
-
-
+</ContentPage> 
