@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="TRojas_Apuntes.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TRojas_Apuntes"
-    Title="TRojas_Apuntes">
+    x:Class="TRojas_Apuntes.AppShell">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <FlyoutItem Title="Inicio" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Inicio" ContentTemplate="{DataTemplate local:MainPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Acerca de mí" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="About" ContentTemplate="{DataTemplate local:AboutPage}" />
+    </FlyoutItem>
 
 </Shell>
+    
+

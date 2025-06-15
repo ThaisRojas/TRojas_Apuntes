@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TRojas_Apuntes.AboutPage"
+             Title="Acerca de mí">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <Image Source="snowball.jpg"
+       HeightRequest="150"
+       WidthRequest="150"
+       HorizontalOptions="Center" />
+
+            <Label Text="Thais Dixiana Rojas Torres"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Estudio Ingeniería en Software en la Universidad de Las Américas. Estoy en 5to semestre."
+                   FontSize="18"
+                   HorizontalTextAlignment="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+
