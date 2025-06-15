@@ -3,28 +3,27 @@
              x:Class="TRojas_Apuntes.MainPage"
              Title="Inicio">
 
-    <VerticalStackLayout Spacing="25" Padding="30,60,30,30"
-                         VerticalOptions="Center">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="25" VerticalOptions="Center">
 
-        <Label 
-            Text="¡Bienvenida, Thais Dixiana Rojas Torres!"
-            SemanticProperties.HeadingLevel="Level1"
-            FontSize="32"
-            HorizontalOptions="Center" />
+            <Label 
+                Text="Pagina de Thais Dixiana Rojas Torres"
+                FontSize="28"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center" />
 
-        <Label 
-            x:Name="CounterLabel"
-            Text="Haz clic en el botón"
-            SemanticProperties.HeadingLevel="Level2"
-            FontSize="18"
-            HorizontalOptions="Center" />
+            <Label 
+                x:Name="CounterLabel"
+                Text="Presiona el botón"
+                FontSize="18"
+                HorizontalOptions="Center" />
 
-        <Button 
-            Text="Haz clic"
-            SemanticProperties.Hint="Cuenta cuántas veces haces clic"
-            Clicked="OnCounterClicked"
-            HorizontalOptions="Center" />
+            <Button 
+                Text="Haz clic"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
 
-    </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
 
